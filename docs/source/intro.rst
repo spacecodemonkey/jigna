@@ -150,6 +150,12 @@ communication between its Javascript engine and the running Python
 application. We use this communication channel to create a Javascript proxy
 for Python models.
 
+.. image: _static/concept-blind.png
+
+.. image: _static/concept.png
+
+.. image: _static/mechanism-full.png
+
 The other nice piece in this story is AngularJS, which provides good
 model-view separation between its HTML template and the corresponding
 Javascript model. AngularJS has great support for two-way data binding between
