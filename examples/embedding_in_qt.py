@@ -19,12 +19,12 @@ class Employee(HasTraits):
 #### UI layer ####
 
 body_html = """
-    <div>
+    <div style='font-size: 32px'>
       Employee name is {{employee.name}}<br/>
       Salary is ${{employee.salary}}<br/>
 
       <button ng-click='employee.update_salary()'>
-        Update salary
+        UPDATE SALARY
       </button>
     </div>
 """
